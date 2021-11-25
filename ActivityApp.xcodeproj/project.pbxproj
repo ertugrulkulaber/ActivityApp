@@ -16,6 +16,7 @@
 		877F8D882722AE19002F553C /* ActivityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877F8D872722AE19002F553C /* ActivityAppTests.swift */; };
 		877F8D922722AE19002F553C /* ActivityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877F8D912722AE19002F553C /* ActivityAppUITests.swift */; };
 		877F8D942722AE19002F553C /* ActivityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877F8D932722AE19002F553C /* ActivityAppUITestsLaunchTests.swift */; };
+		877F8DA12722B2C0002F553C /* PermanentMarker-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 877F8DA02722B2C0002F553C /* PermanentMarker-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		877F8D8D2722AE19002F553C /* ActivityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		877F8D912722AE19002F553C /* ActivityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAppUITests.swift; sourceTree = "<group>"; };
 		877F8D932722AE19002F553C /* ActivityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		877F8DA02722B2C0002F553C /* PermanentMarker-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PermanentMarker-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				877F8D792722AE19002F553C /* Assets.xcassets */,
 				877F8D7B2722AE19002F553C /* LaunchScreen.storyboard */,
 				877F8D7E2722AE19002F553C /* Info.plist */,
+				877F8DA22722B38F002F553C /* Font */,
 			);
 			path = ActivityApp;
 			sourceTree = "<group>";
@@ -125,6 +128,14 @@
 				877F8D932722AE19002F553C /* ActivityAppUITestsLaunchTests.swift */,
 			);
 			path = ActivityAppUITests;
+			sourceTree = "<group>";
+		};
+		877F8DA22722B38F002F553C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				877F8DA02722B2C0002F553C /* PermanentMarker-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				877F8D7D2722AE19002F553C /* LaunchScreen.storyboard in Resources */,
 				877F8D7A2722AE19002F553C /* Assets.xcassets in Resources */,
+				877F8DA12722B2C0002F553C /* PermanentMarker-Regular.ttf in Resources */,
 				877F8D782722AE19002F553C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -464,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
